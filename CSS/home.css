@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body section {
+    font-family: 'arial', sans-serif;
+
+}
+body section header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body section ul {
+    position: absolute;
+    display: flex;
+    
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+body section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+}
+
+body section ul li a:hover {
+    text-decoration: underline;
+}
+
+body section ul li img {
+    padding: 4px;
+}
+
+body section ul li img:hover {
+    border-radius: 5rem;
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+    transition: 100ms;
+}
+
+body section ul button {
+    background-color: #296ce0;
+    padding: 10px 22px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+section .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 450px;
+    margin-right: 450px;
+    
+}
+
+section .main img {
+    width: 300px;
+}
+
+section .main form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+section .main .search-box {
+    position: relative;
+    width: 550px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 30rem;
+    border: 1px solid #ccc;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#search-icon {
+    width: 20px;  
+}
+
+#img-search {
+    width: 25px;
+}
+    
+
+section .main .search-box .icons {
+    position: absolute;
+    width: 94%;
+    margin-left: 15px;
+    margin-right: 24px;
+    display: flex;
+    justify-content:space-between ;
+    top: 12px;
+   
+}
+
+section .main .search-box:hover {
+    box-shadow: 5px 5px 5px   rgba(8, 7, 7, 0.1);
+    border: 1px solid rgb(231, 226, 226);
+}
+
+ section .main .search-box input {
+    width:100% ;
+    height: 100%;
+    padding: 14px;
+    padding-left: 45px;
+    padding-right: 60px; 
+    border-radius: 30rem;
+    border: 1px solid #fcf9f9;
+    outline: none;
+    font-size: 16px;  
+ } 
+
+ section .main .buttons {
+    margin-top: 15px;
+    display: flex;  
+}
+
+section .main .buttons button {
+    width: 150px;
+    margin: 0 5px;
+    padding: 8px 10px;
+    color: #3a3a3a;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #f3f0f0;
+}
+
+section .main .buttons button:hover {
+    border: 1px solid #ccc;
+}
+
+section .languages {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+section .languages li {
+    list-style: none;
+    margin: 0;
+    font-size: 13px;
+}
+
+section .languages li a {
+    text-decoration: none;
+    color: blue;
+}
+
+section .main .languages li a:hover {
+    text-decoration: underline;
+}
+
+section .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+    height: 100px;
+}
+
+section .footer .row {
+    padding: 15px 0; 
+    border-top: 1px sloid wheat;
+    justify-content: space-between;
+}
+
+ section .footer .row.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    padding-top: 3px;
+}
+
+section .footer .row.row2 ul {
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+section .footer .row.row2 ul li:hover {
+    text-decoration: underline;
+}
+
+section .footer .row.row2 ul li{
+    list-style: none;
+}
+
+section .footer .row.row2 ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 25px;
+    color: #5f6368;
+}
+
+section .footer .row.row2 ul:nth-child(2) {
+   margin-left: 80%;
+}
+
+section .footer .row.row2 ul:nth-child(2) li a { 
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: 25px;
+    color: #5f6368;
+}
+
+section .footer .row.row1 .country {
+    position: absolute;
+    width: 100%;
+    color: #5f6368;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(212, 207, 207);
+    padding-left: 30px; 
+     padding-top: 8px;
+}
+
+#notice {
+    position: relative;
+    color: red;
+    margin-left: 1000px;
+    top: 150px;
+}
+
+
+
